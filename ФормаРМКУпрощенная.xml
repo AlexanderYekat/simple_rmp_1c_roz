@@ -26,11 +26,11 @@
 		<ChildObjects>
 			<Attribute uuid="34c5755b-7e6b-4f3e-81fd-046aeb11a498">
 				<Properties>
-					<Name>РеквизитЧекПродажи</Name>
+					<Name>ЭтоПриходныйЧек</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Реквизит чек продажи</v8:content>
+							<v8:content>Это приходный чек</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -60,11 +60,11 @@
 			</Attribute>
 			<Attribute uuid="830eeb1d-67fa-4e25-9235-203e6feb65c6">
 				<Properties>
-					<Name>РеквизитФирма</Name>
+					<Name>Организация</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Реквизит фирма</v8:content>
+							<v8:content>Организация</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -94,11 +94,11 @@
 			</Attribute>
 			<Attribute uuid="1ae6462e-e3a5-42f5-861a-6fdce76d6607">
 				<Properties>
-					<Name>РеквизитКассир</Name>
+					<Name>Кассир</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Реквизит кассир</v8:content>
+							<v8:content>Кассир</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -128,11 +128,11 @@
 			</Attribute>
 			<Attribute uuid="30331efe-f220-40d8-b2f3-1d71c919be51">
 				<Properties>
-					<Name>РеквизитБилетыУжеВыписаны</Name>
+					<Name>ЭтоОплатаКредита</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Реквизит билеты уже выписаны</v8:content>
+							<v8:content>Это оплата кредита</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -162,11 +162,11 @@
 			</Attribute>
 			<Attribute uuid="694651cf-1b77-4627-a612-c184bc3804a2">
 				<Properties>
-					<Name>РеквизитEmail</Name>
+					<Name>EmailПокупателя</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Реквизит email</v8:content>
+							<v8:content>Email покупателя</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -200,11 +200,11 @@
 			</Attribute>
 			<Attribute uuid="84a39c0f-7f41-4c33-8f18-045cf4d9c7b7">
 				<Properties>
-					<Name>РеквизитКассаККМ</Name>
+					<Name>КассаККМ</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Реквизит касса ККМ</v8:content>
+							<v8:content>Касса ККМ</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -234,11 +234,11 @@
 			</Attribute>
 			<Attribute uuid="8db2ad9c-65a6-4c15-9e93-cc0f956adcfa">
 				<Properties>
-					<Name>РеквизитФискальныйРегистратор</Name>
+					<Name>ФискальныйРегистратор</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Реквизит фискальный регистратор</v8:content>
+							<v8:content>Фискальный регистратор</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -268,21 +268,21 @@
 			</Attribute>
 			<TabularSection uuid="a0c97a36-129a-4ac0-ae46-8c01da17e9e1">
 				<InternalInfo>
-					<xr:GeneratedType name="DataProcessorTabularSection.ФормаРМКУпрощенная.Товары" category="TabularSection">
+					<xr:GeneratedType name="DataProcessorTabularSection.ФормаРМКУпрощенная.ПозицииЧека" category="TabularSection">
 						<xr:TypeId>ac53826e-8df8-4c72-988b-c9ad93ac384d</xr:TypeId>
 						<xr:ValueId>01241660-20be-4909-bc6b-47a306f1435e</xr:ValueId>
 					</xr:GeneratedType>
-					<xr:GeneratedType name="DataProcessorTabularSectionRow.ФормаРМКУпрощенная.Товары" category="TabularSectionRow">
+					<xr:GeneratedType name="DataProcessorTabularSectionRow.ФормаРМКУпрощенная.ПозицииЧека" category="TabularSectionRow">
 						<xr:TypeId>46fb3f4b-ba10-4b71-81e5-9fce50911c0a</xr:TypeId>
 						<xr:ValueId>00208b29-75b4-4a41-bcbe-25bec02052ee</xr:ValueId>
 					</xr:GeneratedType>
 				</InternalInfo>
 				<Properties>
-					<Name>Товары</Name>
+					<Name>ПозицииЧека</Name>
 					<Synonym>
 						<v8:item>
 							<v8:lang>ru</v8:lang>
-							<v8:content>Товары</v8:content>
+							<v8:content>Позиции чека</v8:content>
 						</v8:item>
 					</Synonym>
 					<Comment/>
@@ -321,11 +321,11 @@
 				<ChildObjects>
 					<Attribute uuid="527396b5-a21f-43a2-85fa-7a87e3460382">
 						<Properties>
-							<Name>Услуга</Name>
+							<Name>Номенклатура</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Услуга</v8:content>
+									<v8:content>Номенклатура</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -465,11 +465,11 @@
 					</Attribute>
 					<Attribute uuid="4d208746-79e9-4721-9e6e-069fda0199ef">
 						<Properties>
-							<Name>ПризнакПредметаРасчета</Name>
+							<Name>ПредметРасчета</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Признак предмета расчета</v8:content>
+									<v8:content>Предмет расчета</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
@@ -501,11 +501,11 @@
 					</Attribute>
 					<Attribute uuid="7c37fc97-190c-4147-a014-ec3daa2642fd">
 						<Properties>
-							<Name>ПризнакиСпособаРасчета</Name>
+							<Name>СпособРасчета</Name>
 							<Synonym>
 								<v8:item>
 									<v8:lang>ru</v8:lang>
-									<v8:content>Признаки способа расчета</v8:content>
+									<v8:content>Способ расчета</v8:content>
 								</v8:item>
 							</Synonym>
 							<Comment/>
